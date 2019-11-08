@@ -6,6 +6,8 @@ window.app = new Vue({
 	},
 	methods: {
 		maintainerUrl(mod) {
+			if(mod.maintainerUrl) return mod.maintainerUrl
+
 			const match = /^https:\/\/github\.com\/([^/]+)/.exec(mod.url)
 			return match && match[1]
 		},

@@ -3,5 +3,5 @@ window.app = new Vue({
 	data: {
 		mods: []
 	},
-	async mounted() { this.mods = (await fetch(`mods.json`)).json() }
+	async mounted() { this.mods = await (await fetch(`mods.json`)).json() }
 })

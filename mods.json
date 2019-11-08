@@ -7,6 +7,13 @@
 		"tags": ["featured", "fps"]
 	},
 	{
+		"url": "https://github.com/teralove/party-death-markers",
+		"maintainer": "TeraLove",
+		"name": "Party Death Markers",
+		"description": "Spawn beacons on top of dead party members.",
+		"tags": ["qol"]
+	},
+	{
 		"url": "https://github.com/TeraProxy/EP-Tracker",
 		"maintainer": "Dureal",
 		"name": "EP-Tracker",

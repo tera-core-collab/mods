@@ -1,14 +1,92 @@
 [
 	{
+		"url": "https://github.com/tera-mods/",
+		"maintainer": "Pinkie Pie",
+		"name": "",
+		"description": ""
+	},
+	{
+		"url": "https://github.com/tera-mods/afker",
+		"maintainer": "Pinkie Pie",
+		"name": "AFKer",
+		"description": "Lets you toggle off logout to prevent being sent back to character select after 2 hours of inactivity."
+	},
+	{
+		"url": "https://github.com/tera-mods/auto-negotiate",
+		"maintainer": "Pinkie Pie",
+		"name": "Auto-Negotiate",
+		"description": "Automatically accepts or declines Trade Broker negotiations."
+	},
+	{
+		"url": "https://github.com/tera-mods/auto-vanguard",
+		"maintainer": "Pinkie Pie",
+		"name": "Auto-Vanguard",
+		"description": "Automatically turns in Vanguard quests upon completion."
+	},
+	{
+		"url": "https://github.com/tera-mods/default-load-screens",
+		"maintainer": "Pinkie Pie",
+		"name": "Default Loading Screens",
+		"description": "Disables publisher-specific loading screens."
+	},
+	{
+		"url": "https://github.com/tera-mods/fly-forever",
+		"maintainer": "Pinkie Pie",
+		"name": "Fly Forever",
+		"description": "Removes P2W flight stamina restriction."
+	},
+	{
+		"url": "https://github.com/tera-mods/instant-everything",
+		"maintainer": "Pinkie Pie",
+		"name": "Instant Everything",
+		"description": "Removes the animations for: Enchant, Upgrade, Soulbind, Merge, Dismantle."
+	},
+	{
+		"url": "https://github.com/tera-mods/loot",
+		"maintainer": "Pinkie Pie",
+		"name": "Loot",
+		"description": "Automatically loots items near your character."
+	},
+	{
+		"url": "https://github.com/tera-mods/no-cutscenes",
+		"maintainer": "Pinkie Pie",
+		"name": "No Cutscenes",
+		"description": "Disables cutscenes."
+	},
+	{
+		"url": "https://github.com/tera-mods/no-mote-cancel",
+		"maintainer": "Pinkie Pie",
+		"name": "No Mote Cancel",
+		"description": "Reverts Mystic motes to the old style of casting where moving will not cancel the skill."
+	},
+	{
+		"url": "https://github.com/tera-mods/quick-load",
+		"maintainer": "Pinkie Pie",
+		"name": "Quick Load",
+		"description": "Removes useless loading screen when switching channels or teleporting nearby."
+	},
+	{
+		"url": "https://github.com/tera-mods/rootbeer",
+		"maintainer": "Pinkie Pie",
+		"name": "Rootbeer",
+		"description": "Automatically opens Bamarama Boxes and deletes unwanted items."
+	},
+	{
 		"url": "https://github.com/tera-mods/skill-prediction",
+		"maintainer": "Pinkie Pie",
 		"name": "Skill Prediction",
-		"author": "Pinkie Pie",
 		"description": "Simulates skills client-side, eliminating ping-based delays and animation lock."
 	},
 	{
+		"url": "https://github.com/tera-mods/slay",
+		"maintainer": "Pinkie Pie",
+		"name": "Slay",
+		"description": "Triggers fall damage to lower your HP to the specified %."
+	},
+	{
 		"url": "https://github.com/codeagon/fps-utils",
+		"maintainer": "Huge Dong 69",
 		"name": "FPS Utils",
-		"author": "Huge Dong 69",
 		"description": "Lets you hide players, NPCs, and effects to improve FPS."
 	}
 ]

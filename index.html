@@ -18,12 +18,12 @@
 			<table class="mods">
 				<tr>
 					<th class="sort-button" @click="sortBy('name')">Name</th>
-					<th class="sort-button" @click="sortBy('author')">Author</th>
+					<th class="sort-button" @click="sortBy('maintainer')">Maintainer</th>
 					<th>Description</th>
 				</tr>
 				<tr class="mod" v-for="mod in mods">
 					<td><a :href="mod.url">{{mod.name}}</a></td>
-					<td>{{mod.author}}</td>
+					<td>{{mod.maintainer}}</td>
 					<td>{{mod.description}}</td>
 				</tr>
 			</table>

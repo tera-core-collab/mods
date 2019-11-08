@@ -56,12 +56,14 @@ th:last-child, td:last-child {
 tr:not(:last-child) > th, tr:not(:last-child) > td {
 	border-bottom: 2px solid #999;
 }
-.mods .name {
+.mods .name, .mods .maintainer {
 	white-space: nowrap;
+}
+.mods .name {
+	font-weight: bold;
 }
 
 a {
-	font-weight: bold;
 	color: #07f;
 	text-decoration: none;
 }

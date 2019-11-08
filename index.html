@@ -25,7 +25,7 @@
 					</tr>
 					<tr class="mod" v-for="mod in mods">
 						<td class="name"><a :href="mod.url">{{mod.name}}</a></td>
-						<td class="name"><a :href="maintainerUrl(mod)">{{mod.maintainer}}</a></td>
+						<td class="maintainer"><a :href="maintainerUrl(mod)">{{mod.maintainer}}</a></td>
 						<td>{{mod.tags.join(', ')}}</td>
 						<td>{{mod.description}}</td>
 					</tr>

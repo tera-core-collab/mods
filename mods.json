@@ -3,84 +3,98 @@
 		"url": "https://github.com/tera-mods/afker",
 		"maintainer": "Pinkie Pie",
 		"name": "AFKer",
-		"description": "Lets you toggle off logout to prevent being sent back to character select after 2 hours of inactivity."
+		"description": "Lets you toggle off logout to prevent being sent back to character select after 2 hours of inactivity.",
+		"tags": ["qol"]
 	},
 	{
 		"url": "https://github.com/tera-mods/auto-negotiate",
 		"maintainer": "Pinkie Pie",
 		"name": "Auto-Negotiate",
-		"description": "Automatically accepts or declines Trade Broker negotiations."
+		"description": "Automatically accepts or declines Trade Broker negotiations.",
+		"tags": ["automation"]
 	},
 	{
 		"url": "https://github.com/tera-mods/auto-vanguard",
 		"maintainer": "Pinkie Pie",
 		"name": "Auto-Vanguard",
-		"description": "Automatically turns in Vanguard quests upon completion."
+		"description": "Automatically turns in Vanguard quests upon completion.",
+		"tags": ["automation"]
 	},
 	{
 		"url": "https://github.com/tera-mods/default-load-screens",
 		"maintainer": "Pinkie Pie",
 		"name": "Default Loading Screens",
-		"description": "Disables publisher-specific loading screens."
+		"description": "Disables publisher-specific loading screens.",
+		"tags": ["qol"]
 	},
 	{
 		"url": "https://github.com/tera-mods/fly-forever",
 		"maintainer": "Pinkie Pie",
 		"name": "Fly Forever",
-		"description": "Removes P2W flight stamina restriction."
+		"description": "Removes P2W flight stamina restriction.",
+		"tags": ["enhancements"]
 	},
 	{
 		"url": "https://github.com/tera-mods/instant-everything",
 		"maintainer": "Pinkie Pie",
 		"name": "Instant Everything",
-		"description": "Removes the animations for: Enchant, Upgrade, Soulbind, Merge, Dismantle."
+		"description": "Removes the animations for: Enchant, Upgrade, Soulbind, Merge, Dismantle.",
+		"tags": ["qol"]
 	},
 	{
 		"url": "https://github.com/tera-mods/loot",
 		"maintainer": "Pinkie Pie",
 		"name": "Loot",
-		"description": "Automatically loots items near your character."
+		"description": "Automatically loots items near your character.",
+		"tags": ["automation"]
 	},
 	{
 		"url": "https://github.com/tera-mods/no-cutscenes",
 		"maintainer": "Pinkie Pie",
 		"name": "No Cutscenes",
-		"description": "Disables cutscenes."
+		"description": "Disables cutscenes.",
+		"tags": ["qol"]
 	},
 	{
 		"url": "https://github.com/tera-mods/no-mote-cancel",
 		"maintainer": "Pinkie Pie",
 		"name": "No Mote Cancel",
-		"description": "Reverts Mystic motes to the old style of casting where moving will not cancel the skill."
+		"description": "Reverts Mystic motes to the old style of casting where moving will not cancel the skill.",
+		"tags": ["combat", "qol"]
 	},
 	{
 		"url": "https://github.com/tera-mods/quick-load",
 		"maintainer": "Pinkie Pie",
 		"name": "Quick Load",
-		"description": "Removes useless loading screen when switching channels or teleporting nearby."
+		"description": "Removes useless loading screen when switching channels or teleporting nearby.",
+		"tags": ["bugfix", "qol"]
 	},
 	{
 		"url": "https://github.com/tera-mods/rootbeer",
 		"maintainer": "Pinkie Pie",
 		"name": "Rootbeer",
-		"description": "Automatically opens Bamarama Boxes and deletes unwanted items."
+		"description": "Automatically opens Bamarama Boxes and deletes unwanted items.",
+		"tags": ["automation"]
 	},
 	{
 		"url": "https://github.com/tera-mods/skill-prediction",
 		"maintainer": "Pinkie Pie",
 		"name": "Skill Prediction",
-		"description": "Simulates skills client-side, eliminating ping-based delays and animation lock."
+		"description": "Simulates skills client-side, eliminating ping-based delays and animation lock.",
+		"tags": ["bugfix", "combat", "featured"]
 	},
 	{
 		"url": "https://github.com/tera-mods/slay",
 		"maintainer": "Pinkie Pie",
 		"name": "Slay",
-		"description": "Triggers fall damage to lower your HP to the specified %."
+		"description": "Triggers fall damage to lower your HP to the specified %.",
+		"tags": ["enhancements"]
 	},
 	{
 		"url": "https://github.com/codeagon/fps-utils",
 		"maintainer": "Huge Dong 69",
 		"name": "FPS Utils",
-		"description": "Lets you hide players, NPCs, and effects to improve FPS."
+		"description": "Lets you hide players, NPCs, and effects to improve FPS.",
+		"tags": ["featured", "fps"]
 	}
 ]

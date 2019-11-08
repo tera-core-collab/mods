@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>TERA Proxy - Mods</title>
+
+		<link rel="stylesheet" href="main.css">
+
+		<script defer src="deps/vue.js"></script>
+		<script type="module" src="main.js"></script>
+	</head>
+	<body>
+		<div id="app" v-cloak>
+			<div id="toolbar">
+				<div id="logo">Tera&nbsp;Mods</div>
+			</div>
+
+			<table class="mods">
+				<tr>
+					<th>Name</th>
+					<th>Author</th>
+					<th>Description</th>
+				</tr>
+				<tr class="mod" v-for="mod in mods">
+					<td><a :href="mod.url">{{mod.name}}</a></td>
+					<td>{{mod.author}}</td>
+					<td>{{mod.description}}</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>

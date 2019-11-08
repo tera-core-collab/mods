@@ -1,0 +1,57 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	overflow: hidden;
+}
+
+[v-cloak] { display: none; }
+#app {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	background-color: #111;
+	color: #eee;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+#toolbar {
+	padding: 10px;
+	background-color: #222;
+	display: flex;
+	flex-direction: row;
+	font-size: 18px;
+}
+#toolbar #logo {
+	padding-right: 10px;
+	font-weight: bold;
+}
+
+table {
+	border-collapse: collapse;
+}
+th {
+	text-align: left;
+}
+th, td {
+	padding: 4px;
+}
+th:not(:last-child), td:not(:last-child) {
+	border-right: 2px solid #444;
+}
+tr:not(:last-child) > th, tr:not(:last-child) > td {
+	border-bottom: 2px solid #444;
+}
+
+a {
+	color: #3bf;
+}
+a:hover {
+	color: #7cf;
+}

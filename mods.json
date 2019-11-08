@@ -1,5 +1,19 @@
 [
 	{
+		"url": "https://github.com/codeagon/fps-utils",
+		"maintainer": "Huge Dong 69",
+		"name": "FPS Utils",
+		"description": "Lets you hide players, NPCs, and effects to improve FPS.",
+		"tags": ["featured", "fps"]
+	},
+	{
+		"url": "https://github.com/TeraProxy/EP-Tracker",
+		"maintainer": "Dureal",
+		"name": "EP-Tracker",
+		"description": "A tera-proxy module that shows you information about your Enhancement Points experience, including the daily softcap.",
+		"tags": ["qol"]
+	},
+	{
 		"url": "https://github.com/tera-mods/afker",
 		"maintainer": "Pinkie Pie",
 		"name": "AFKer",
@@ -21,6 +35,13 @@
 		"tags": ["automation"]
 	},
 	{
+		"url": "https://github.com/tera-mods/broker-anywhere",
+		"maintainer": "Pinkie Pie",
+		"name": "Broker Anywhere",
+		"description": "Lets you open the Trade Broker from anywhere.",
+		"tags": ["enhancements"]
+	},
+	{
 		"url": "https://github.com/tera-mods/default-load-screens",
 		"maintainer": "Pinkie Pie",
 		"name": "Default Loading Screens",
@@ -39,7 +60,7 @@
 		"maintainer": "Pinkie Pie",
 		"name": "Instant Everything",
 		"description": "Removes the animations for: Enchant, Upgrade, Soulbind, Merge, Dismantle.",
-		"tags": ["qol"]
+		"tags": ["enhancements"]
 	},
 	{
 		"url": "https://github.com/tera-mods/loot",
@@ -89,12 +110,5 @@
 		"name": "Slay",
 		"description": "Triggers fall damage to lower your HP to the specified %.",
 		"tags": ["enhancements"]
-	},
-	{
-		"url": "https://github.com/codeagon/fps-utils",
-		"maintainer": "Huge Dong 69",
-		"name": "FPS Utils",
-		"description": "Lets you hide players, NPCs, and effects to improve FPS.",
-		"tags": ["featured", "fps"]
 	}
 ]

@@ -17,8 +17,8 @@
 
 			<table class="mods">
 				<tr>
-					<th>Name</th>
-					<th>Author</th>
+					<th class="sort-button" @click="sortBy('name')">Name</th>
+					<th class="sort-button" @click="sortBy('author')">Author</th>
 					<th>Description</th>
 				</tr>
 				<tr class="mod" v-for="mod in mods">

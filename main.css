@@ -15,7 +15,7 @@ body {
 	height: 100%;
 	display: flex;
 	flex-direction: column;
-	background-color: #eee;
+	background-color: #fff;
 	color: #111;
 	font-family: sans-serif;
 	font-size: 16px;
@@ -23,7 +23,8 @@ body {
 
 #toolbar {
 	padding: 10px;
-	background-color: #fff;
+	background-color: #eee;
+	border-bottom: 2px solid #777;
 	display: flex;
 	flex-direction: row;
 	font-size: 18px;
@@ -37,21 +38,31 @@ table {
 	border-collapse: collapse;
 }
 th {
-	text-align: left;
+	background-color: #eee;
 }
 th, td {
+	text-align: left;
 	padding: 4px;
 }
 th:not(:last-child), td:not(:last-child) {
-	border-right: 2px solid #ccc;
+	border-right: 2px solid #777;
+	white-space: nowrap;
+}
+th:last-child, td:last-child {
+	width: 100%;
 }
 tr:not(:last-child) > th, tr:not(:last-child) > td {
-	border-bottom: 2px solid #ccc;
+	border-bottom: 2px solid #777;
 }
 
 a {
-	color: #3bf;
+	color: #07f;
+	font-weight: bold;
 }
 a:hover {
-	color: #7cf;
+	color: #05b;
+}
+
+.sort-button {
+	cursor: pointer;
 }

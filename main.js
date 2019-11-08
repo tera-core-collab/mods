@@ -8,8 +8,8 @@ window.app = new Vue({
 		maintainerUrl(mod) {
 			if(mod.maintainerUrl) return mod.maintainerUrl
 
-			const match = /^https:\/\/github\.com\/([^/]+)/.exec(mod.url)
-			return match && match[1]
+			const match = /^https:\/\/github\.com\/[^/]+/.exec(mod.url)
+			return match && match[0]
 		},
 
 		sortBy(key) {

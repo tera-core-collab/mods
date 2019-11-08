@@ -5,6 +5,11 @@ window.app = new Vue({
 		lastSort: ''
 	},
 	methods: {
+		maintainerUrl(mod) {
+			const match = /^https:\/\/github\.com\/([^/]+)/.exec(mod.url)
+			return match && match[1]
+		},
+
 		sortBy(key) {
 			const order = this.lastSort === key ? -1 : 1
 			this.mods = this.mods.sort((a, b) => a[key].localeCompare(b[key]) * order)
